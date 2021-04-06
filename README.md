@@ -1,2 +1,6 @@
-# website
-Eave Network Website
+# Eave Network Website
+
+To run locally
+
+`python -m SimpleHTTPServer`
+

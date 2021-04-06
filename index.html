@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<!--
+	EAVE Network website
+	created from 
+	Tessellate by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>EAVE Network</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header" class="dark">
+				<header>
+					<h1>EAVE Network</h1>
+					<p>Emerging Asset Value Engine</p>
+				</header>
+				<footer>
+					<a href="#first" class="button scrolly">See what we're building</a>
+				</footer>
+			</section>
+
+		<!-- First -->
+			<section id="first" class="main">
+				<header>
+					<div class="container">
+						<h2>EAVE</h2>
+						<h3>Uniting DeFi</h3>
+					</div>
+				</header>
+				<div class="content dark style1 featured">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-narrow">
+								<section>
+									<span><img src="images/EAVE-BLUE-128.png" alt=""/></span>
+									<header>
+										<h3>EAVE</h3>
+									</header>
+									<p>EAVE Protocol is creating a decentralized finance platform for the custody, aggregation and exchange of digital assets across multiple disparate digital asset platforms including blockchains, centralized exchanges and financial institutions. </p>
+								</section>
+							</div>
+							<div class="col-4 col-12-narrow">
+								<section>
+									<span><img src="images/AQUA-BLUE-128.png" alt=""/></span>
+									<header>
+										<h3>Aqua</h3>
+									</header>
+									<p>Aqua is an open DeFi hub which allows blockchain providers, Liquidity Provisioning Offerings and Yield Providers to build upon and integrate with the EAVE Network.</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-narrow">
+								<section>
+									<span><img src="images/BEAST-BLUE-128.png" alt=""/></span>
+									<header>
+										<h3>BEAST</h3>
+									</header>
+									<p>BEAST is EAVE's EVM Compatable Developer Tooling. Providing the ability for DeFi protocols and developers to build upon EAVE and gain access to the rich Polkadot Ecosystem.</p>
+								</section>
+							</div>
+							<div class="col-12">
+								<footer>
+									<a href="#second" class="button scrolly">What can EAVE do?</a>
+								</footer>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Second -->
+			<section id="second" class="main">
+				<header>
+					<div class="container">
+						<h2>United DeFi</h2>
+						<h3>Optimized Custody and Settlement</h3>
+						<p>Trade or hold any ditial asset using EAVE's unique Optimized Custodial and Settlement Technology.</p>
+					</div>
+				</header>
+				<div class="content dark style2">
+					<div class="container">
+						<span class="image featured"><img src="images/ocs.svg" alt="" /></span>
+						<div class="row">
+							<div>
+								<p>
+									<b>Optimized Ledger and Custody: </b>
+									The optimized ledger holds all balances of the Liquidity Pools on the EAVE Protocol chain. It allows for a single interface point with all liquidity pools and abstracts away the underlying implementation of the liquidity pools thus allowing a gas efficient platform and agnostic interface for the exchange of tokens.								</p>
+							</div>
+							<div">
+								<p>
+									<b>Optimized Routing and Settlement: </b>
+									The off-chain swap routing enables the discovery of the best value for swaps via the Optimized Ledger. This includes all EAVE Protocol Liquidity Pools and may be augmented with on-chain components for realizing discovery fees.
+								</div>
+							<div>
+								<p>
+									<b>A Sample Trade</b>
+										<ol>
+											<li>Trader approves the Optimized Ledger to work as a proxy</li>
+											<li>Trader requests to swap one BTC for some DOT</li>
+											<li>The BTC is deposited into the Optimal Ledger (note: this optionally uses the Cross Platform Bridge if the assets come from another layer 1 platform)</li>
+											<li>Optimal Routing selects the most efficient swap route from multiple liquidity pools and executes the trade</li>
+											<li>The trader receives the DOT and then can either leave the DOT on the Optimal ledger or withdraw them using Optimal settlement (once again, if the funds are native to another layer 1 platform the Cross Platform Bridge will be used)</li>
+										</ol>
+									</p>
+							</div>
+							<div>
+								<p>
+									<b>Yield Engine: </b>
+									The Yield Engine connects Liquidity Providers to Yield Providers. Yield Providers \emph{invest} in a liquidity pool. However, rather then sending all the invested tokens to the liquidity pool, only the minimum amount needed for transactions are sent. The role of the Yield engine is to monitor the balance of the liquidity pools and replenish and re-balance them as needed.
+								</footer>
+							</div>
+							<div>
+								<p>
+									<b>OCS Yield Engine flow</b>
+									<ol>
+										<li>The Yield Provider (e.g. AAVE or Honza) "invests" a number of tokens into a liquidity pool.</li>
+										<li>The Liquidity Pool maintains a minimum threshold needed for trading, which is called the Optimal Liquidity Amount. The remaining "investment" tokens remain in the Yield Provider enhancing the yield for the Liquidity Pool.</li>
+										<li>When the number of tokens for any token in the pool drops below the Optimal Liquidity Amount, a re-balance is triggered (optionally using the cross platform bridge if needed).</li>
+									</ol>
+									<b>Note: </b>In the above scenario, BTC was traded for DOT thus triggering DOT to drop below its Optimal Liquidity Amount. Hence, DOT is replenished by the Yield Provider and BTC is withdrawn to balance the Liquidity Pool and continues to earn yield on the surplus BTC. 
+								</p>
+								<a href="#third" class="button scrolly">EAVE Technology</a>
+								</footer>
+							</div>
+						</div>
+					</div>
+				</section>
+		
+			<!-- Third -->
+			<section id="third" class="main">
+				<header>
+					<div class="container">
+						<h2>EAVE Technology</h2>
+						<p>EAVE Protocol has completed the initial development of our Platform and testing is currently underway. Our development process is that of rapid deployment, testing and iteration. We combine this with an open, extensible architecture and strong focus on partnerships.</p>
+						<p>To realize the opportunities EAVE Protocol has developed the following architecture.</p>
+					</div>
+				</header>
+				<div class="content dark style1">
+					<div class="container">
+						<span class="image featured"><img src="images/technology.svg" alt="" /></span>
+						<h3>EAVE Foundational Layers</h3>
+						<div class="row">
+							<div>
+								<p>
+									<b>EAVE Protocol Chain</b>
+									Built upon a robust, modular blockchain, the Core Protocol leverages Substrates modular extensible components to provide rich functionality including consensus, governance, RPC and API functionality and software development kits.
+								</p>
+							</div>
+							<div">
+								<p>
+									<b>Decentralized Financial Platform</b>
+									Leveraging a robust IDE which includes the ability to develop natively in RUST, Solidity Vyper or Ink, the Defi Hub will allow for the rapid development of new Polkadot DeFi projects as well as enabling the porting of Solidity based projects to Polkadot. Finally, the Integration engine will enable exciting new cross-chain financial models based on composability of modular components through the use of bridging, price oracles and traditional fintech through off chain worker capabilities.								</p>
+							</div>
+							<div>
+								<p>
+									<b>Optimized Custody and Settlement (OCS)</b>
+									<ul>
+										<li><b>Secure: </b>The Optimized ledger keeps internal balances isolated among liquidity pools.</li>
+										<li><b>Simple: </b>All interactions will be done through one single access point: the vault.</li>
+										<li><b>Cost effective: </b>Trading against all liquidity pools will  be on par with existing liquidity pools. Trades will cost even less if internal balances are used. Trading with many pools at the same time only marginally increases the gas costs. EAVE Protocol's gas costs will be significantly less than Ethereum's.</li>
+										<li><b>Higher Yield: </b>Liquidity pools have full control over the underlying tokens they add to the optimal ledger. This opens up vast design space to improve capital efficiency within and across multiple chains and can be combined with the Yield engines for greater returns and the EAVE Liquidity Protocol which allows assets to be leveraged for mutliple staking scenarios, further increasing yields.</li>
+										<li><b>Extensible: </b>EAVE Protocol will create a thriving cross chain ecosystem and will incentivize developers through it's comprehensive suite of developer tools and use of it's treasury funds for Grants and bounties.</li>
+									</ul>
+								</p>
+							</div>
+							<div>
+								<p>
+									<b>EAVEX Digital Asset Exchange</b>
+									EAVE Protocol Digital Asset Exchange will provide a cost cheap, fast solution for a broad range of digital assets. It will do this by leveraging an order book which combines off chain execution with on chain settlement. The optimized routing and settlement both minimizes gas fees and provides routing and settlement capabilities to liquidity pools from a variety of providers including other parachains, blockchains, centralized exchanges and financial institutions.
+								</p>	
+								<a href="#fourth" class="button scrolly">Join us</a>
+								</footer>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<section id="fourth" class="main">
+					<header>
+						<div class="container">
+							<h2>Join EAVE in our journey</h2>
+							<p>EAVE is currently building out our ecoystem of DeFi partners, Validators and Application Developers, please join us. </p>
+						</div>
+					</header>
+				</section>
+				<ul class="icons">
+					<li><a href="mailto:info@eave.network" class="icon social fa-envelope"><span class="label">email</span></a></li>
+					<li><a href="https://twitter.eave.network" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://discord.eave.network" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+					<li><a href="https://telegram.eave.network" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
+					<li><a href="https://medium.eave.network" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+					<li><a href="https://linkedin.eave.network" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				</ul>
+				<div class="copyright">
+					<ul class="menu">
+						<li>&copy; EAVE All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
